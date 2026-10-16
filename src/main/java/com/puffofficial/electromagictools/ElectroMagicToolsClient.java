@@ -1,6 +1,5 @@
 package com.puffofficial.electromagictools;
 
-import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -22,9 +21,5 @@ public class ElectroMagicToolsClient {
     }
 
     @SubscribeEvent
-    static void onClientSetup(FMLClientSetupEvent event) {
-        // Some client setup code
-        ElectroMagicTools.LOGGER.info("HELLO FROM CLIENT SETUP");
-        ElectroMagicTools.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
-    }
+    static void onClientSetup(FMLClientSetupEvent event) {}
 }

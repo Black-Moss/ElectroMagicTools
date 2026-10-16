@@ -15,4 +15,12 @@ public class EMTTiers {
             14,
             () -> Ingredient.of(Tags.Items.SLIME_BALLS)
     );
+    public static final Tier MAGICAL_TIER = new SimpleTier(
+            BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
+            512,
+            6.5f,
+            2f,
+            16,
+            () -> Ingredient.of(Tags.Items.SLIME_BALLS)
+    );
 }

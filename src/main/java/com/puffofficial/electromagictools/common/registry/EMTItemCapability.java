@@ -17,6 +17,9 @@ public class EMTItemCapability {
         registerEnergyStorageItem(event, 100000, EMTItems.PLACEHOLDER_BATTERY.get());
         registerEnergyStorageItem(event, 50000, EMTItems.ELECTRIC_DRILL.get());
         registerEnergyStorageItem(event, 50000, EMTItems.ELECTRIC_SAW.get());
+
+        registerEnergyStorageItem(event, 100000, EMTItems.ELEMENTAL_DRILL.get());
+        registerEnergyStorageItem(event, 100000, EMTItems.ELEMENTAL_SAW.get());
     }
 
 

@@ -1,14 +1,12 @@
-package com.puffofficial.electromagictools.api.item;
+package com.puffofficial.electromagictools.api.item.tool.electric;
 
+import com.puffofficial.electromagictools.api.EMTTiers;
 import com.puffofficial.electromagictools.api.EMTValues;
 import com.puffofficial.electromagictools.api.helpers.ColorHelper;
 import com.puffofficial.electromagictools.api.helpers.TooltipHelper;
 import net.minecraft.network.chat.Component;
 import net.minecraft.tags.TagKey;
-import net.minecraft.world.item.DiggerItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.capabilities.Capabilities;
 import net.neoforged.neoforge.energy.IEnergyStorage;
@@ -17,9 +15,15 @@ import com.puffofficial.electromagictools.api.EMTValues.EnergyColors;
 
 import java.util.List;
 
-public class EnergyToolItem extends DiggerItem {
-    public EnergyToolItem(Tier tier, TagKey<Block> blocks, Properties properties) {
-        super(tier, blocks, properties);
+public class ElectricToolItem extends DiggerItem {
+    public ElectricToolItem(Tier tier, TagKey<Block> blocks) {
+        super(tier, blocks, new Item.Properties().attributes(
+                ElectricSawItem.createAttributes(
+                        EMTTiers.ELECTRIC_TIER,
+                        1,
+                        -2.8f
+                )
+        ));
     }
 
     @Override

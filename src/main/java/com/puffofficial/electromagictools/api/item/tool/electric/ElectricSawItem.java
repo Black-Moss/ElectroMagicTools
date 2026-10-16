@@ -1,4 +1,4 @@
-package com.puffofficial.electromagictools.api.item;
+package com.puffofficial.electromagictools.api.item.tool.electric;
 
 import com.puffofficial.electromagictools.api.EMTValues;
 import net.minecraft.core.BlockPos;
@@ -15,9 +15,9 @@ import net.neoforged.neoforge.capabilities.Capabilities;
 import net.neoforged.neoforge.energy.IEnergyStorage;
 import org.jetbrains.annotations.NotNull;
 
-public class EnergyAxeItem extends EnergyToolItem {
-    public EnergyAxeItem(Tier tier, Properties properties) {
-        super(tier, BlockTags.MINEABLE_WITH_AXE, properties);
+public class ElectricSawItem extends ElectricToolItem {
+    public ElectricSawItem(Tier tier) {
+        super(tier, BlockTags.MINEABLE_WITH_AXE);
     }
 
     @Override

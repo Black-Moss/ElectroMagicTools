@@ -1,6 +1,5 @@
-package com.puffofficial.electromagictools.api.item;
+package com.puffofficial.electromagictools.api.item.tool.electric;
 
-import com.puffofficial.electromagictools.Config;
 import com.puffofficial.electromagictools.api.EMTValues;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.component.DataComponents;
@@ -16,9 +15,9 @@ import net.neoforged.neoforge.capabilities.Capabilities;
 import net.neoforged.neoforge.energy.IEnergyStorage;
 import org.jetbrains.annotations.NotNull;
 
-public class EnergyPickaxeItem extends EnergyToolItem {
-    public EnergyPickaxeItem(Tier tier, Properties properties) {
-        super(tier, BlockTags.MINEABLE_WITH_PICKAXE, properties);
+public class ElectricDrillItem extends ElectricToolItem {
+    public ElectricDrillItem(Tier tier) {
+        super(tier, BlockTags.MINEABLE_WITH_PICKAXE);
     }
 
     @Override

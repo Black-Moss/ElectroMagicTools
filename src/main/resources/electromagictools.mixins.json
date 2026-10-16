@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.puffofficial.electromagictools.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "InfusionEnchantmentsMixin"
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

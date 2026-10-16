@@ -10,4 +10,6 @@ public class EMTValues {
 
     public static final int DEFAULT_ENERGY_PER_BLOCK = 50;
     public static final int ENERGY_PER_BLOCK = Math.toIntExact(Math.round(DEFAULT_ENERGY_PER_BLOCK * Config.ENERGY_TOOL_CONSUMPTION.getAsDouble()));
+
+    public static final int ENERGY_PEL_TICK_PULL = 2;
 }
