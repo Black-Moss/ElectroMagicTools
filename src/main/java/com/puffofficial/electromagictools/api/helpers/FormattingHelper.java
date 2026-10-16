@@ -1,7 +1,9 @@
 package com.puffofficial.electromagictools.api.helpers;
 
+import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 
+import java.awt.*;
 import java.text.DecimalFormat;
 
 public class FormattingHelper {
@@ -27,4 +29,5 @@ public class FormattingHelper {
 
         return Component.literal(formattedNumber+ " " + unit);
     }
+
 }

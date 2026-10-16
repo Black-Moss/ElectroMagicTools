@@ -1,9 +1,11 @@
 package com.puffofficial.electromagictools;
 
 import com.puffofficial.electromagictools.api.EMTDataComponents;
+import com.puffofficial.electromagictools.api.item.EnergyStorageItem;
 import com.puffofficial.electromagictools.common.registry.EMTCreativeTab;
 import com.puffofficial.electromagictools.common.registry.EMTItems;
 import net.minecraft.core.component.DataComponentType;
+import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;

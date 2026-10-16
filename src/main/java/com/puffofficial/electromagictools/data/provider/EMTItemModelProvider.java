@@ -6,6 +6,7 @@ import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
+@SuppressWarnings("unused")
 public class EMTItemModelProvider extends ItemModelProvider {
     public EMTItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
         super(output, ElectroMagicTools.MODID, existingFileHelper);

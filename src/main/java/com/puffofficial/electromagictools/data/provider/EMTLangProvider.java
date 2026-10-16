@@ -15,6 +15,10 @@ public class EMTLangProvider extends LanguageProvider {
         add("item.electromagictools.placeholder_item", "Placeholder Item");
         add("item.electromagictools.placeholder_battery", "Placeholder Battery");
 
-        add("electromagictools.energy_stored", "§7Energy Stored: %s / %s");
+        add("item.electromagictools.electric_drill", "Electric Drill");
+        add("item.electromagictools.electric_sawS", "Electric Saw");
+
+        add("electromagictools.energy_stored", "§7Energy Stored: %s/%s");
+        add("electromagictools.energy_per_operation", "§7Energy Per Operation: %s");
     }
 }

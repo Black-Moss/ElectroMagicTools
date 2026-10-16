@@ -4,7 +4,6 @@ import com.puffofficial.electromagictools.ElectroMagicTools;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Items;
 import net.neoforged.neoforge.registries.DeferredHolder;
 
 public class EMTCreativeTab {
@@ -15,6 +14,8 @@ public class EMTCreativeTab {
             .displayItems((parameters, output) -> {
                 output.accept(EMTItems.PLACEHOLDER_ITEM);
                 output.accept(EMTItems.PLACEHOLDER_BATTERY);
+                output.accept(EMTItems.ELECTRIC_DRILL);
+                output.accept(EMTItems.ELECTRIC_SAW);
             }).build());
 
     public static void init() {}

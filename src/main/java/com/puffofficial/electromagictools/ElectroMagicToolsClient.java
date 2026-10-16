@@ -10,6 +10,7 @@ import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
+@SuppressWarnings("unused")
 @Mod(value = ElectroMagicTools.MODID, dist = Dist.CLIENT)
 @EventBusSubscriber(modid = ElectroMagicTools.MODID, value = Dist.CLIENT)
 public class ElectroMagicToolsClient {
