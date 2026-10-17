@@ -1,0 +1,9 @@
+{
+  "electromagictools.energy_per_operation": "§7Energy Per Operation: %s",
+  "electromagictools.energy_stored": "§7Energy Stored: %s/%s",
+  "item.electromagictools.electric_drill": "Electric Drill",
+  "item.electromagictools.electric_saw": "Electric Saw",
+  "item.electromagictools.placeholder_battery": "Placeholder Battery",
+  "item.electromagictools.placeholder_item": "Placeholder Item",
+  "itemGroup.electromagictools": "ElectroMagic Tools"
+}

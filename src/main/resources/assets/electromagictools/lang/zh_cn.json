@@ -1,0 +1,9 @@
+{
+  "electromagictools.energy_per_operation": "§7Energy Per Operation: %s",
+  "electromagictools.energy_stored": "§7Energy Stored: %s/%s",
+  "item.electromagictools.electric_drill": "Electric Drill",
+  "item.electromagictools.electric_saw": "电锯",
+  "item.electromagictools.placeholder_battery": "占位电池",
+  "item.electromagictools.placeholder_item": "占位物品",
+  "itemGroup.electromagictools": "电子魔法工具"
+}
